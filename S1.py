@@ -1,6 +1,6 @@
-print("Ejercicio 1")
+print("Ejercicio     1   Numerico")
 #NUMERICOS
-edad, _peso= 50, 70.5
+edad, _peso= 2,0.5
 
 #STRING
 nombres='Ashley Lopez M'
