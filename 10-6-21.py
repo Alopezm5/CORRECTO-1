@@ -92,7 +92,7 @@ class ciclos:
 
         vc = input("Ingrese una Vocal: ")
         vc = vc.lower()
-        while car not in('a','e','i','o','u'):
+        while vc not in('a','e','i','o','u'):
             vc = input("Ingrese la vocal: ").lower()
         print("Felicitaciones el caracter:{} es una vocal".format(vc))
 
