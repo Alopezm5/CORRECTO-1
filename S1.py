@@ -5,7 +5,8 @@ edad, _peso= 2,0.5
 #STRING
 nombres='Ashley Lopez M'
 dirDomiciliaria ="Coop. Juan Montalvo"
-Tipo_sexo="F
+Tipo_sexo="F"
+
 
 #BOOLEAN
 civil=True
