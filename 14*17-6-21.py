@@ -57,6 +57,18 @@ class For:
         print(con)
         print(prom)
        
+        listaalumnos=[{"nombre":"Shaynee","final":70},{"nombre":"Nath","final":60},{"nombre":"James","final":90}]
+        acu=0
+        con=0
+        for alumnos in listaalumnos:
+            print(alumnos)
+            for clave,valor in alumnos.items():
+                print(clave,":",valor, end="  ")
+                if clave=="final":
+                    acu=acu+valor
+            con=con+1
+        pro=acu/con
+        print(pro)
     
 objFor=For()
 objFor.usoFor()
