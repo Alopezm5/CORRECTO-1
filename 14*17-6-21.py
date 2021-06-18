@@ -29,5 +29,34 @@ class For:
         for i, valor in enumerate(datos):
             print(i,valor)
             
+        print("\n Diccionario de notas")
+        # for clave,valor in docente.items():
+        #     print(clave,":",valor, end=" ")
+
+        listanota=[(30,40),[20,40,20],(50,40,20,10,5)]
+        acu=0
+        con=0
+        prom=0
+        prom1 = 0
+        for notas in listanota:
+            print(notas)
+            acu1 = 0
+            con1 = 0
+            for nota in notas:
+                print(nota)
+                con+=1
+                acu=acu+nota
+                prom=acu/con
+                acu1=acu1+nota
+                con1=con1+1
+                prom1 = acu1 / con1
+            print("aumuado:",acu1,"notas:",con1)
+            print(acu1,con1,prom1)
+        print("")
+        print(acu)
+        print(con)
+        print(prom)
+       
+    
 objFor=For()
 objFor.usoFor()
