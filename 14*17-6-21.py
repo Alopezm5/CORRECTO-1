@@ -70,5 +70,12 @@ class For:
         pro=acu/con
         print(pro)
     
+        frase="Hola como estas"
+        vocales=[]
+        for car in frase:
+            if car in ("a","e","i","o","u"):
+                vocales.append(car)
+        print(vocales)
+    
 objFor=For()
 objFor.usoFor()
