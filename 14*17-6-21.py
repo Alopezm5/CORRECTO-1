@@ -19,6 +19,15 @@ class For:
         for i in range(12,3,-3):
             print("i={}".format(i))#ciclo con valor inicial y valor final, y con parametros de saltos de decremento
         
-        
+        longitud=len(datos)
+        for i in range(longitud):
+            print(datos[i])
+
+        for j in range(longitud-1,-1,-1):
+            print(datos[j])
+
+        for i, valor in enumerate(datos):
+            print(i,valor)
+            
 objFor=For()
 objFor.usoFor()
